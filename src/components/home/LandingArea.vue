@@ -1,0 +1,97 @@
+<template>
+    <div class="main">
+        <v-container class="container">
+            <div class="wrapper">
+                <h1 class="heading">
+                    CUSTOM WEB DESIGN FOR <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
+                </h1>
+                <p class="text-subtitle headingPara">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore architecto quae officiis distinctio cupiditate, aliquid necessitatibus temporibus laboriosam alias fugit voluptatibus minima obcaecati voluptatem quasi qui vero deserunt explicabo earum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, ratione.
+                </p>
+            </div>
+        </v-container>
+    </div>
+</template>
+
+<script>
+export default {
+    name: "LandingArea",
+    data() {
+        return {
+            counter: 0,
+            items: [
+                {
+                    color: 'red',
+                    text: 'YOUR BUSINESS'
+                },
+                {
+                    color: 'green',
+                    text: 'YOUR BRAND'
+                },
+                {
+                    color: 'blue',
+                    text: 'YOUR FINANCE'
+                },
+            ]
+        }
+    },
+    created() {
+        setInterval(() => {
+            if (this.counter === 2) {
+                this.counter = 0;
+            } else {
+                this.counter++;
+            }
+        }, 5000);
+    }
+}
+</script>
+
+<style scoped>
+.main {
+    height: 60vh;
+    margin-bottom: 24px;
+    
+}
+
+.container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.wrapper {
+    width: 80%;
+}
+
+.heading {
+    font-size: 84px;
+    font-weight: bolder;
+}
+
+.heading span {
+    transition: all .9s ease;
+}
+
+.headingPara {
+    width:80%;
+}
+
+@media screen and (max-width: 920px) {
+    .main {
+        height: max-content;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .heading {
+        font-size: 54px;
+    }
+    .headingPara {
+        width: 100%;
+    }
+}
+</style>

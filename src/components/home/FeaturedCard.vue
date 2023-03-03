@@ -1,6 +1,6 @@
 <template>
     <div class="main">
-        <v-row class="px-4">
+        <v-row class="px-4 mb-4">
             <v-col cols="12" sm="12" md="6" lg="4">
                 <v-card class="card" height="450px">
                     <v-img height="100%" src="https://images.pexels.com/photos/15476701/pexels-photo-15476701.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"></v-img>

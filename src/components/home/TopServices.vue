@@ -2,21 +2,68 @@
     <div class="main">
         <v-row class="mx-4">
             <v-col cols="12" sm="12" md="6" lg="4">
-                <v-card class="card">
+                <v-card class="card" elevation="6">
                     <v-card-title>
-                        <h1>
-                            <v-icon large>mdi-web</v-icon>
-                            Web Development
-                        </h1>
+                        <v-row>
+                            <v-col cols="12" sm="2" md="2" lg="2">
+                                <v-icon color="#212121" large>mdi-web</v-icon>
+                            </v-col>
+                            <v-col cols="12" sm="10" md="10" lg="10">
+                                <h1>WEBSITE</h1>
+                            </v-col>
+                        </v-row>
                     </v-card-title>
-                    <v-divider></v-divider>
+                    <v-container>
+                        <v-divider></v-divider>
+                    </v-container>
                     <v-card-text>
-                        <ul>
-                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, laborum.</li>
-                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro excepturi quos vitae.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro excepturi quos vitae.</li>
-                        </ul>
+                        <v-list>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                        </v-list>
                     </v-card-text>
                     <v-card-actions class="mb-2">
                         <v-btn href="/services" outlined link block color="primary">Learn More</v-btn>
@@ -26,21 +73,68 @@
                 </v-card>
             </v-col>
             <v-col cols="12" sm="12" md="6" lg="4">
-                <v-card class="card">
+                <v-card class="card" elevation="6">
                     <v-card-title>
-                        <h1>
-                            <v-icon large>mdi-android</v-icon>
-                            Mobile Development
-                        </h1>
+                        <v-row>
+                            <v-col cols="12" sm="2" md="2" lg="2">
+                                <v-icon color="#212121" large>mdi-android</v-icon>
+                            </v-col>
+                            <v-col cols="12" sm="10" md="10" lg="10">
+                                <h1>MOBILE APP</h1>
+                            </v-col>
+                        </v-row>
                     </v-card-title>
-                    <v-divider></v-divider>
+                    <v-container>
+                        <v-divider></v-divider>
+                    </v-container>
                     <v-card-text>
-                        <ul>
-                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, laborum.</li>
-                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro excepturi quos vitae.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro excepturi quos vitae.</li>
-                        </ul>
+                        <v-list>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                        </v-list>
                     </v-card-text>
                     <v-card-actions class="mb-2">
                         <v-btn href="/services" outlined link block color="success">Learn More</v-btn>
@@ -50,27 +144,74 @@
                 </v-card>
             </v-col>
             <v-col cols="12" sm="12" md="6" lg="4">
-                <v-card class="card">
+                <v-card class="card" elevation="6">
                     <v-card-title>
-                        <h1>
-                            <v-icon large>mdi-brain</v-icon>
-                            Data Analytics
-                        </h1>
+                        <v-row>
+                            <v-col cols="12" sm="2" md="2" lg="2">
+                                <v-icon color="#212121" large>mdi-brain</v-icon>
+                            </v-col>
+                            <v-col cols="12" sm="10" md="10" lg="10">
+                                <h1>DATA ANALYTICS</h1>
+                            </v-col>
+                        </v-row>
                     </v-card-title>
-                    <v-divider></v-divider>
+                    <v-container>
+                        <v-divider></v-divider>
+                    </v-container>
                     <v-card-text>
-                        <ul>
-                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, laborum.</li>
-                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro excepturi quos vitae.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro excepturi quos vitae.</li>
-                        </ul>
+                        <v-list>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-avatar>
+                                    <v-icon>mdi-check-all</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>Some Service Heading</v-list-item-title>
+                                    <v-list-item-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore rerum odio!</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
+                        </v-list>
                     </v-card-text>
                     <v-card-actions class="mb-2">
-                        <v-btn href="/services" outlined link block color="warning">Learn More</v-btn>
+                        <v-btn href="/services" outlined link block color="red">Learn More</v-btn>
                     </v-card-actions>
 
-                    <div style="background: #FB962A; height: 18px;"></div>
+                    <div style="background: #E04F39; height: 18px;"></div>
                 </v-card>
             </v-col>
         </v-row>

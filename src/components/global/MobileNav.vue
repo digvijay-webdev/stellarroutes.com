@@ -12,8 +12,6 @@
             <v-spacer></v-spacer>
 
             <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
-
-            <Hamburger  />
         </v-app-bar>
 
         <!-- navigation drawer -->
@@ -27,27 +25,78 @@
                             <v-list-item-title>Home</v-list-item-title>
                         </v-list-item>
                     </router-link>
-                    <router-link to="/">
+                    <router-link to="/about">
                         <v-list-item>
                             <v-list-item-title>About</v-list-item-title>
                         </v-list-item>
                     </router-link>
-                    <router-link to="/">
-                        <v-list-item>
-                            <v-list-item-title>Services</v-list-item-title>
-                        </v-list-item>
-                    </router-link>
-                    <router-link to="/">
-                        <v-list-item>
-                            <v-list-item-title>Products</v-list-item-title>
-                        </v-list-item>
-                    </router-link>
-                    <router-link to="/">
+
+                    <v-list-group :value="false">
+                        <template v-slot:activator>
+                            <v-list-item-content>
+                                <v-list-item-title>Services</v-list-item-title>
+                            </v-list-item-content>
+                        </template>
+
+                        <router-link to="/web-development">
+                            <v-list-item>
+                                <v-list-item-title>
+                                    Web Development
+                                </v-list-item-title>
+                            </v-list-item>
+                        </router-link>
+                        <router-link to="/app-development">
+                            <v-list-item>
+                                <v-list-item-title>
+                                    App Development
+                                </v-list-item-title>
+                            </v-list-item>
+                        </router-link>
+                        <router-link to="/digital-marketing">
+                            <v-list-item>
+                                <v-list-item-title>
+                                    Digital Marketing
+                                </v-list-item-title>
+                            </v-list-item>
+                        </router-link>
+                        <router-link to="/data-analytics">
+                            <v-list-item>
+                                <v-list-item-title>
+                                    Data Analytics
+                                </v-list-item-title>
+                            </v-list-item>
+                        </router-link>
+                    </v-list-group>
+
+                    <v-list-group :value="false">
+                        <template v-slot:activator>
+                            <v-list-item-content>
+                                <v-list-item-title>Products</v-list-item-title>
+                            </v-list-item-content>
+                        </template>
+
+                        <a href="https://hotelsbridge.com" target="_blank">
+                            <v-list-item>
+                                <v-list-item-title>
+                                    HotelsBridge
+                                </v-list-item-title>
+                            </v-list-item>
+                        </a>
+                        <a href="https://github.com/digvijay-webdev/MarkeTON" target="_blank">
+                            <v-list-item>
+                                <v-list-item-title>
+                                    MarkeTON
+                                </v-list-item-title>
+                            </v-list-item>
+                        </a>
+                    </v-list-group>
+
+                    <router-link to="/blogs">
                         <v-list-item>
                             <v-list-item-title>Blog</v-list-item-title>
                         </v-list-item>
                     </router-link>
-                    <router-link to="/">
+                    <router-link to="/contact">
                         <v-list-item>
                             <v-list-item-title>Let's Get Started</v-list-item-title>
                         </v-list-item>

@@ -19,22 +19,22 @@
                 </template>
                 <v-list>
                     <v-list-item-group color="primary">
-                        <router-link to="/">
+                        <router-link to="/web-development">
                             <v-list-item>
                                 Web Development
                             </v-list-item>
                         </router-link>
-                        <router-link to="/">
+                        <router-link to="/app-development">
                             <v-list-item>
                                 App Development
                             </v-list-item>
                         </router-link>
-                        <router-link to="/">
+                        <router-link to="/digital-marketing">
                             <v-list-item>
                                 Digital Marketing
                             </v-list-item>
                         </router-link>
-                        <router-link to="/">
+                        <router-link to="/data-analytics">
                             <v-list-item>
                                 Data Analytics
                             </v-list-item>
@@ -53,11 +53,11 @@
                                 HotelsBridge
                             </v-list-item>
                         </a>
-                        <router-link to="/">
+                        <a href="https://github.com/digvijay-webdev/MarkeTON" target="_blank">
                             <v-list-item>
                                 MarkeTON
                             </v-list-item>
-                        </router-link>
+                        </a>
                     </v-list-item-group>
                 </v-list>
             </v-menu>

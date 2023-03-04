@@ -30,7 +30,7 @@
 
         <v-row class="px-4">
             <v-col cols="12" sm="12" md="6" lg="8">
-                <v-card class="card" height="450px" data-aos="fade-up" data-aos-duration="500">    
+                <v-card class="card" height="450px">    
                     <v-img height="100%" src="https://images.pexels.com/photos/2565919/pexels-photo-2565919.jpeg?auto=compress&cs=tinysrgb&w=800"></v-img>
                     <div class="hidden-content px-2 py-4">
                         <h3>Heading</h3>
@@ -42,7 +42,7 @@
                 </v-card>
             </v-col>
             <v-col cols="12" sm="12" md="6" lg="4">
-                <v-card class="card" height="450px" data-aos="fade-up" data-aos-duration="1000">
+                <v-card class="card" height="450px">
                     <v-img height="100%" src="https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&w=800"></v-img>
                     
                     <div class="hidden-content px-2 py-4">
@@ -58,7 +58,7 @@
 
         <v-row class="px-4">
             <v-col cols="12" sm="12" md="6" lg="4">
-                <v-card class="card" height="450px" data-aos="fade-up" data-aos-duration="500">
+                <v-card class="card" height="450px">
                     <v-img height="100%" src="https://images.pexels.com/photos/3184455/pexels-photo-3184455.jpeg?auto=compress&cs=tinysrgb&w=800"></v-img>
                     
                     <div class="hidden-content px-2 py-4">
@@ -71,7 +71,7 @@
                 </v-card>
             </v-col>
             <v-col cols="12" sm="12" md="6" lg="8">
-                <v-card class="card" height="450px" data-aos="fade-up" data-aos-duration="1000">    
+                <v-card class="card" height="450px">    
                     <v-img height="100%" src="https://images.pexels.com/photos/2528118/pexels-photo-2528118.jpeg?auto=compress&cs=tinysrgb&w=800"></v-img>
                     <div class="hidden-content px-2 py-4">
                         <h3>Heading</h3>

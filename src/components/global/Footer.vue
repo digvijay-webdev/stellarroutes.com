@@ -6,19 +6,16 @@
                     <p class="text-title"><strong>SERVICES</strong></p>
                     <ul>
                         <li>
-                            <router-link to="/">Data Analytics</router-link>
+                            <router-link to="/data-analytics">Data Analytics</router-link>
                         </li>
                         <li>
-                            <router-link to="/">Digital Marketing</router-link>
+                            <router-link to="/digital-marketing">Digital Marketing</router-link>
                         </li>
                         <li>
-                            <router-link to="/">Website Development</router-link>
+                            <router-link to="/web-development">Website Development</router-link>
                         </li>
                         <li>
-                            <router-link to="/">Mobile App Development</router-link>
-                        </li>
-                        <li>
-                            <router-link to="/">Desktop App Development</router-link>
+                            <router-link to="/app-development">App Development</router-link>
                         </li>
                     </ul>
                 </div>
@@ -30,7 +27,7 @@
                             <a href="https://hotelsbridge.com" target="_blank">HotelsBridge</a>
                         </li>
                         <li>
-                            <router-link to="/">MarkeTON</router-link>
+                            <a href="https://github.com/digvijay-webdev/MarkeTON" target="_blank">MarkeTON</a>
                         </li>
                     </ul>
                 </div>
@@ -42,10 +39,10 @@
                             <router-link to="/about">About</router-link>
                         </li>
                         <li>
-                            <router-link to="/">Blog</router-link>
+                            <router-link to="/blogs">Blog</router-link>
                         </li>
                         <li>
-                            <router-link to="/">Careers</router-link>
+                            <router-link to="/careers">Careers</router-link>
                         </li>
                     </ul>
                 </div>
@@ -54,16 +51,16 @@
                     <p class="text-title"><strong>OTHER</strong></p>
                     <ul>
                         <li>
-                            <router-link to="/">Sitemap</router-link>
+                            <router-link to="/sitemap">Sitemap</router-link>
                         </li>
                         <li>
-                            <router-link to="/">Cookies</router-link>
+                            <router-link to="/cookies">Cookies</router-link>
                         </li>
                         <li>
-                            <router-link to="/">Privacy Policy</router-link>
+                            <router-link to="/privacy-policy">Privacy Policy</router-link>
                         </li>
                         <li>
-                            <router-link to="/">Terms & Conditions</router-link>
+                            <router-link to="/terms-and-conditions">Terms & Conditions</router-link>
                         </li>
                     </ul>
                 </div>

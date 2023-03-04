@@ -12,7 +12,7 @@
                                 <p class="text-subtitle text-justify">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, adipisci!..
                                 </p>
-                                <v-btn outlined large>View Project</v-btn>
+                                <v-btn outlined large>Read Blog</v-btn>
                             </div>
                         </v-card>
                     </router-link>

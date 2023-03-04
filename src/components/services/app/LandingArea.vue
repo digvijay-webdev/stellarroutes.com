@@ -3,10 +3,11 @@
         <v-container class="container">
             <div class="wrapper">
                 <h1 class="heading" data-aos="fade-up" data-aos-duration="500">
-                    DISCOVER OUR UNIQUE <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
+                    APP DEVELOPMENT FOR <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
                 </h1>
                 <p class="text-subtitle headingPara" data-aos="fade-up" data-aos-duration="1000">
-                    Welcome to our tech blog, where we share expert perspectives on the latest tech trends and innovations. Discover the intersection of technology and culture through our in-depth analysis and insights. Explore our blog for valuable tech news and inspiration.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore architecto quae officiis distinctio cupiditate, aliquid necessitatibus temporibus laboriosam alias fugit voluptatibus minima obcaecati voluptatem quasi qui vero deserunt explicabo earum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, ratione.
                 </p>
             </div>
         </v-container>
@@ -24,19 +25,23 @@ export default {
             counter: 0,
             items: [
                 {
-                    color: 'green',
-                    text: 'INSIGHTS'
+                    color: 'red',
+                    text: 'ANDROID'
                 },
                 {
                     color: 'blue',
-                    text: 'IDEAS'
+                    text: 'IOS'
+                },
+                {
+                    color: 'green',
+                    text: 'WINDOWS'
                 },
             ]
         }
     },
     created() {
         setInterval(() => {
-            if (this.counter === 1) {
+            if (this.counter === 2) {
                 this.counter = 0;
             } else {
                 this.counter++;

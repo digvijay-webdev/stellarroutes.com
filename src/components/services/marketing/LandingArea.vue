@@ -3,10 +3,10 @@
         <v-container class="container">
             <div class="wrapper">
                 <h1 class="heading" data-aos="fade-up" data-aos-duration="500">
-                    DISCOVER OUR UNIQUE <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
+                    <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span> YOUR ONLINE PRESENCE WITH US
                 </h1>
                 <p class="text-subtitle headingPara" data-aos="fade-up" data-aos-duration="1000">
-                    Welcome to our tech blog, where we share expert perspectives on the latest tech trends and innovations. Discover the intersection of technology and culture through our in-depth analysis and insights. Explore our blog for valuable tech news and inspiration.
+                    Welcome to our digital marketing page, where we specialize in helping businesses succeed online. Our team of experienced marketing professionals leverages data-driven strategies to help our clients improve their online presence, increase traffic and engagement, and ultimately grow their businesses. Whether you're looking for search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, or any other digital marketing services, we're here to help you reach your goals. Let's get started!
                 </p>
             </div>
         </v-container>
@@ -24,13 +24,13 @@ export default {
             counter: 0,
             items: [
                 {
-                    color: 'green',
-                    text: 'INSIGHTS'
+                    color: 'red',
+                    text: 'IMPROVE'
                 },
                 {
                     color: 'blue',
-                    text: 'IDEAS'
-                },
+                    text: 'ELEVATE'
+                }
             ]
         }
     },
@@ -48,9 +48,8 @@ export default {
 
 <style scoped>
 .main {
-    height: 60vh;
+    height: max-content;
     margin-bottom: 24px;
-    
 }
 
 .container {

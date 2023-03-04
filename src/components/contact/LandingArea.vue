@@ -26,10 +26,6 @@ export default {
             items: [
                 {
                     color: 'red',
-                    text: 'FRUITION'
-                },
-                {
-                    color: 'green',
                     text: 'SUCCESS'
                 },
                 {
@@ -41,7 +37,7 @@ export default {
     },
     created() {
         setInterval(() => {
-            if (this.counter === 2) {
+            if (this.counter === 1) {
                 this.counter = 0;
             } else {
                 this.counter++;

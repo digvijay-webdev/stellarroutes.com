@@ -7,6 +7,8 @@ import About from "@/pages/About.vue";
 import Blogs from "@/pages/Blogs.vue";
 import Contact from "@/pages/Contact.vue";
 import WebDev from "@/pages/WebDev.vue";
+import AppDev from "@/pages/AppDev.vue";
+import DigitalMarketing from "@/pages/DigitalMarketing.vue";
 
 Vue.use(VueRouter)
 
@@ -35,6 +37,16 @@ const routes = [
     path: "/web-development",
     name: "webDev",
     component: WebDev
+  },
+  {
+    path: "/app-development",
+    name: "appDev",
+    component: AppDev
+  },
+  {
+    path: "/digital-marketing",
+    name: "digitalMarketing",
+    component: DigitalMarketing
   },
   {
     path: "/blogs/:id",

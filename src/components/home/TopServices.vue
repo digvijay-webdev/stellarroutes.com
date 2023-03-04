@@ -2,7 +2,7 @@
     <div class="main">
         <v-row class="mx-4">
             <v-col cols="12" sm="12" md="6" lg="4">
-                <v-card class="card" elevation="6">
+                <v-card class="card" elevation="6" data-aos="fade-up" data-aos-duration="1000">
                     <v-card-title>
                         <v-row>
                             <v-col cols="12" sm="2" md="2" lg="2">
@@ -73,7 +73,7 @@
                 </v-card>
             </v-col>
             <v-col cols="12" sm="12" md="6" lg="4">
-                <v-card class="card" elevation="6">
+                <v-card class="card" elevation="6" data-aos="fade-up" data-aos-duration="1000">
                     <v-card-title>
                         <v-row>
                             <v-col cols="12" sm="2" md="2" lg="2">
@@ -144,7 +144,7 @@
                 </v-card>
             </v-col>
             <v-col cols="12" sm="12" md="6" lg="4">
-                <v-card class="card" elevation="6">
+                <v-card class="card" elevation="6" data-aos="fade-up" data-aos-duration="1000">
                     <v-card-title>
                         <v-row>
                             <v-col cols="12" sm="2" md="2" lg="2">
@@ -219,8 +219,11 @@
 </template>
 
 <script>
+import aosMixin from "@/mixins/aos.js";
+
 export default {
-    name: "TopServices"
+    name: "TopServices",
+    mixins: [aosMixin],
 }
 </script>
 

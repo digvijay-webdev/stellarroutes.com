@@ -2,11 +2,11 @@
     <div class="main">
         <v-container>
             <div class="wrapper">
-                <h1>{{ heading }}</h1>
-                <p>
+                <h1 data-aos="fade-up" data-aos-duration="1000">{{ heading }}</h1>
+                <p data-aos="fade-up" data-aos-duration="1500">
                     {{ paraOne }}
                 </p>
-                <p>
+                <p data-aos="fade-up" data-aos-duration="1800">
                     {{ paraTwo }}
                 </p>
             </div>
@@ -15,8 +15,11 @@
 </template>
 
 <script>
+import aosMixin from "@/mixins/aos.js";
+
 export default {
     name: "HighlightsSection",
+    mixins: [aosMixin],
     props: {
         heading: String,
         paraOne: String,

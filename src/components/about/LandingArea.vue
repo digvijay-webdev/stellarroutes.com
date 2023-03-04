@@ -3,11 +3,10 @@
         <v-container class="container">
             <div class="wrapper">
                 <h1 class="heading" data-aos="fade-up" data-aos-duration="500">
-                    CUSTOM WEB DESIGN FOR <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
+                    INNOVATING FOR <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
                 </h1>
                 <p class="text-subtitle headingPara" data-aos="fade-up" data-aos-duration="1000">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore architecto quae officiis distinctio cupiditate, aliquid necessitatibus temporibus laboriosam alias fugit voluptatibus minima obcaecati voluptatem quasi qui vero deserunt explicabo earum.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, ratione.
+                    We are Kipperin Solutions, a tech company providing innovative software solutions. Our team develops user-friendly technology to help clients achieve their goals and stay ahead of the curve. We believe in the transformative power of technology and are committed to your success.
                 </p>
             </div>
         </v-container>
@@ -26,15 +25,19 @@ export default {
             items: [
                 {
                     color: 'red',
-                    text: 'YOUR BUSINESS'
+                    text: 'PROGRESS'
                 },
                 {
                     color: 'green',
-                    text: 'YOUR BRAND'
+                    text: 'TRANSFORMATION'
                 },
                 {
                     color: 'blue',
-                    text: 'YOUR FINANCE'
+                    text: 'IMPACT'
+                },
+                {
+                    color: 'orange',
+                    text: 'EMPOWERMENT'
                 },
             ]
         }

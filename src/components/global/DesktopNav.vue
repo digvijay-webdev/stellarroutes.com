@@ -13,9 +13,55 @@
 
             <router-link class="mx-4 nav-link" to="/">Home</router-link>
             <router-link class="mx-4 nav-link" to="/about">About</router-link>
-            <router-link class="mx-4 nav-link" to="/services">Services</router-link>
-            <router-link class="mx-4 nav-link" to="/products">Products</router-link>
-            <router-link class="mx-4 nav-link" to="/blog">Blog</router-link>
+            <v-menu offset-y>
+                <template v-slot:activator="{ on, attrs }">
+                    <a href="#!" v-bind="attrs" v-on="on" class="mx-4 nav-link">Services</a>
+                </template>
+                <v-list>
+                    <v-list-item-group color="primary">
+                        <router-link to="/">
+                            <v-list-item>
+                                Web Development
+                            </v-list-item>
+                        </router-link>
+                        <router-link to="/">
+                            <v-list-item>
+                                App Development
+                            </v-list-item>
+                        </router-link>
+                        <router-link to="/">
+                            <v-list-item>
+                                Digital Marketing
+                            </v-list-item>
+                        </router-link>
+                        <router-link to="/">
+                            <v-list-item>
+                                Data Analytics
+                            </v-list-item>
+                        </router-link>
+                    </v-list-item-group>
+                </v-list>
+            </v-menu>
+            <v-menu offset-y>
+                <template v-slot:activator="{ on, attrs }">
+                    <a href="#!" v-bind="attrs" v-on="on" class="mx-4 nav-link">Products</a>
+                </template>
+                <v-list>
+                    <v-list-item-group color="primary">
+                        <a href="https://hotelsbridge.com" target="_blank">
+                            <v-list-item>
+                                HotelsBridge
+                            </v-list-item>
+                        </a>
+                        <router-link to="/">
+                            <v-list-item>
+                                MarkeTON
+                            </v-list-item>
+                        </router-link>
+                    </v-list-item-group>
+                </v-list>
+            </v-menu>
+            <router-link class="mx-4 nav-link" to="/blogs">Blogs</router-link>
             <router-link class="mx-4 nav-link" to="/contact">Let's Get Started</router-link>
         </v-app-bar>
     </div>

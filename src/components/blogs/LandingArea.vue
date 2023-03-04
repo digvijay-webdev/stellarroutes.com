@@ -3,11 +3,10 @@
         <v-container class="container">
             <div class="wrapper">
                 <h1 class="heading" data-aos="fade-up" data-aos-duration="500">
-                    CUSTOM WEB DESIGN FOR <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
+                    DISCOVER OUR UNIQUE <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
                 </h1>
                 <p class="text-subtitle headingPara" data-aos="fade-up" data-aos-duration="1000">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore architecto quae officiis distinctio cupiditate, aliquid necessitatibus temporibus laboriosam alias fugit voluptatibus minima obcaecati voluptatem quasi qui vero deserunt explicabo earum.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, ratione.
+                    Welcome to our tech blog, where we share expert perspectives on the latest tech trends and innovations. Discover the intersection of technology and culture through our in-depth analysis and insights. Explore our blog for valuable tech news and inspiration.
                 </p>
             </div>
         </v-container>
@@ -25,16 +24,12 @@ export default {
             counter: 0,
             items: [
                 {
-                    color: 'red',
-                    text: 'YOUR BUSINESS'
-                },
-                {
                     color: 'green',
-                    text: 'YOUR BRAND'
+                    text: 'INNOVATIVE INSIGHTS'
                 },
                 {
                     color: 'blue',
-                    text: 'YOUR FINANCE'
+                    text: 'VIEWPOINTS'
                 },
             ]
         }

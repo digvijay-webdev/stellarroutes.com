@@ -12,8 +12,20 @@
                         <v-col cols="12" sm="12" md="9" lg="9">
                             <strong>Initial Meeting</strong>
                             <div class="text-caption mb-2">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, natus. Iusto officiis animi ab?
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, natus. Iusto officiis animi ab?
+                                We'll meet with you to discuss your business needs and goals for your product.
+                            </div>
+                        </v-col>
+                    </v-row>
+                </v-timeline-item>
+                <v-timeline-item small>
+                    <v-row class="pt-1">
+                        <v-col cols="12" sm="12" md="3" lg="3">
+                            <strong>WIREFRAME</strong>
+                        </v-col>
+                        <v-col cols="12" sm="12" md="9" lg="9">
+                            <strong>Wireframe Feedback Session</strong>
+                            <div class="text-caption mb-2">
+                                Our team will create a basic blueprint of your products's layout and functionality.
                             </div>
                         </v-col>
                     </v-row>
@@ -24,23 +36,9 @@
                             <strong>PROTOTYPE</strong>
                         </v-col>
                         <v-col cols="12" sm="12" md="9" lg="9">
-                            <strong>Some Great Heading</strong>
+                            <strong>Prototype Review Meeting</strong>
                             <div class="text-caption mb-2">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, assumenda expedita optio perspiciatis a ex esse autem adipisci eligendi dolorem asperiores laboriosam repudiandae voluptas quaerat necessitatibus dolorum odit recusandae cum. Eaque, expedita. Odio necessitatibus rem nemo laboriosam quod eligendi facilis!
-                            </div>
-                        </v-col>
-                    </v-row>
-                </v-timeline-item>
-                <v-timeline-item small>
-                    <v-row class="pt-1">
-                        <v-col cols="12" sm="12" md="3" lg="3">
-                            <strong>DESIGN</strong>
-                        </v-col>
-                        <v-col cols="12" sm="12" md="9" lg="9">
-                            <strong>Some Great Heading</strong>
-                            <div class="text-caption mb-2">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, natus. Iusto officiis animi ab?
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, natus. Iusto officiis animi ab?
+                                We'll create a working model of your software, allowing you to visualize the user experience and suggest changes.
                             </div>
                         </v-col>
                     </v-row>
@@ -51,10 +49,9 @@
                             <strong>DEVELOPMENT</strong>
                         </v-col>
                         <v-col cols="12" sm="12" md="9" lg="9">
-                            <strong>Some Great Heading</strong>
+                            <strong>Building Your Software</strong>
                             <div class="text-caption mb-2">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, natus. Iusto officiis animi ab?
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, natus. Iusto officiis animi ab?
+                                Our team will build and program your website/app, incorporating your brand and design elements.
                             </div>
                         </v-col>
                     </v-row>
@@ -65,10 +62,9 @@
                             <strong>DEPLOYMENT</strong>
                         </v-col>
                         <v-col cols="12" sm="12" md="9" lg="9">
-                            <strong>Some Great Heading</strong>
+                            <strong>Taking Your Product Live</strong>
                             <div class="text-caption mb-2">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, natus. Iusto officiis animi ab?
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, natus. Iusto officiis animi ab?
+                                We'll deploy your software, ensuring that it is optimized for performance and user experience.
                             </div>
                         </v-col>
                     </v-row>

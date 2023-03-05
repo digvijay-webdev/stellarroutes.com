@@ -13,6 +13,9 @@ import Footer from '@/components/global/Footer.vue';
 
 export default {
     name: "Contact",
+    metaInfo: {
+        title: "Contact us",
+    },
     components: {
         LandingArea,
         Form,

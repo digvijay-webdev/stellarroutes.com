@@ -5,9 +5,9 @@
                 <div class="box">
                     <p class="text-title"><strong>SERVICES</strong></p>
                     <ul>
-                        <li>
+                        <!-- <li>
                             <router-link to="/data-analytics">Data Analytics</router-link>
-                        </li>
+                        </li> -->
                         <li>
                             <router-link to="/digital-marketing">Digital Marketing</router-link>
                         </li>
@@ -41,9 +41,9 @@
                         <li>
                             <router-link to="/blogs">Blog</router-link>
                         </li>
-                        <li>
+                        <!-- <li>
                             <router-link to="/careers">Careers</router-link>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
 
@@ -70,7 +70,7 @@
 
             <div class="copybar">
                 <p class="text-caption">
-                    © 2023 Kipperin Limited. All Rights Reserved.
+                    © 2023 Stellar Routes. All Rights Reserved.
                 </p>
 
                 <div class="socialLinks">

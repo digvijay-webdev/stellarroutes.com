@@ -6,10 +6,10 @@
                 <v-col cols="12" sm="12" md="6" lg="6">
                     <h2>Happy Clients, Happy Us: Our Reviews</h2>
                     <p class="text-justify">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quis vitae est adipisci quidem commodi voluptatibus ipsam aliquam tempore architecto! Maxime similique incidunt optio laudantium sapiente sequi itaque libero hic! Voluptate, nulla, architecto inventore quis quae odio porro amet reiciendis eum eveniet harum alias.
+                        Stellar Routes takes pride in providing top-quality services to our clients, with their satisfaction and success stories at the heart of everything we do. Our reviews section showcases the feedback we have received from clients and the positive impact our services have had on their businesses. From website development to digital marketing, we consistently receive positive feedback. 
                     </p>
                     <p class="text-justify">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi commodi recusandae minus, odit, reprehenderit tenetur, totam ipsam distinctio vitae laudantium ipsa repudiandae.
+                        Transparency is important to us, and our reviews section provides potential clients with the opportunity to hear from businesses we've worked with. We strive to build long-lasting relationships with our clients and are committed to delivering top-quality services that help them innovate, scale, and expand their businesses.
                     </p>
                 </v-col>
                 <v-col cols="12" sm="12" md="6" lg="6">

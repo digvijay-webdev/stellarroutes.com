@@ -4,7 +4,7 @@
             <v-toolbar-title>
                 <h3>
                     <router-link class="logo" to="/">
-                        Kipperin
+                        Stellar Routes
                     </router-link>
                 </h3>
             </v-toolbar-title>
@@ -34,11 +34,11 @@
                                 Digital Marketing
                             </v-list-item>
                         </router-link>
-                        <router-link to="/data-analytics">
+                        <!-- <router-link to="/data-analytics">
                             <v-list-item>
                                 Data Analytics
                             </v-list-item>
-                        </router-link>
+                        </router-link> -->
                     </v-list-item-group>
                 </v-list>
             </v-menu>

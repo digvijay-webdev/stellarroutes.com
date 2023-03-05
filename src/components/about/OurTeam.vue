@@ -12,7 +12,7 @@
 
                         <div class="hidden-content px-2 py-4">
                             <h3>Digvijay Padhiyar</h3>
-                            <p class="text-title">Founder & Software Developer</p>
+                            <p class="text-title">Co-Founder & CTO</p>
 
                             <div class="links">
                                 <v-btn href="https://www.linkedin.com/in/digvijay-padhiyar-2a6a77179" link outlined icon>
@@ -36,17 +36,11 @@
 
                         <div class="hidden-content px-2 py-4">
                             <h3>Preet Parikh</h3>
-                            <p class="text-title">Founder & Data Scientist</p>
+                            <p class="text-title">Co-Founder & CEO</p>
 
                             <div class="links">
-                                <v-btn href="https://www.linkedin.com/in/digvijay-padhiyar-2a6a77179" link outlined icon>
+                                <v-btn href="https://www.linkedin.com/in/preet-parikh26" link outlined icon>
                                     <v-icon>mdi-linkedin</v-icon>
-                                </v-btn>
-                                <v-btn href="https://github.com/digvijay-webdev" class="mx-2" link outlined icon>
-                                    <v-icon>mdi-github</v-icon>
-                                </v-btn>
-                                <v-btn href="https://digvijay.tech" link outlined icon>
-                                    <v-icon>mdi-web</v-icon>
                                 </v-btn>
                             </div>
                         </div>
@@ -60,17 +54,11 @@
 
                         <div class="hidden-content px-2 py-4">
                             <h3>Aditi Parikh</h3>
-                            <p class="text-title">Founder & Fullstack Developer</p>
+                            <p class="text-title">Co-Founder & Fullstack Developer</p>
 
                             <div class="links">
-                                <v-btn href="https://www.linkedin.com/in/digvijay-padhiyar-2a6a77179" link outlined icon>
+                                <v-btn href="https://www.linkedin.com/in/aditi-parikh05" link outlined icon>
                                     <v-icon>mdi-linkedin</v-icon>
-                                </v-btn>
-                                <v-btn href="https://github.com/digvijay-webdev" class="mx-2" link outlined icon>
-                                    <v-icon>mdi-github</v-icon>
-                                </v-btn>
-                                <v-btn href="https://digvijay.tech" link outlined icon>
-                                    <v-icon>mdi-web</v-icon>
                                 </v-btn>
                             </div>
                         </div>

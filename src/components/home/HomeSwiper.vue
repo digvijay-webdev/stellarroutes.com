@@ -14,11 +14,11 @@
                 </v-col>
                 <v-col cols="12" sm="12" md="12" lg="8">
                     <h1 class="heading">
-                        WE ARE YOUR TECH <span>GENIE!</span>
+                        WE ARE YOUR TECH <span>WIZARDS!</span>
                     </h1>
                     <p class="text-subtitle">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eligendi totam omnis consectetur, quasi illo labore deserunt obcaecati facilis perspiciatis velit! Ipsum?
-                    </p>
+						With our magic touch, we turn your tech dreams into reality. Our expertise in crafting innovative solutions tailored to your needs makes us your go-to tech wizards. Let's create wonders together!
+					</p>
                     <router-link to="/contact">
                         <v-btn color="#1D1D1D" outlined rounded large>Let's Get Started</v-btn>
                     </router-link>

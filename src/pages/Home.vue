@@ -1,14 +1,14 @@
 <template>
     <main>
        <LandingArea />
+       <HomeSwiper class="mb-4" />
        <FeaturedCard />
        <HighlightsSection
         heading="ATTRACT A CROWD, DRIVE WEBSITE GROWTH"
-        paraOne="Even the most beautiful website design and development in the world won't realize its full potential if customers cannot find the site when they search. We can maximize the performance of your new website."
-        paraTwo="Our search engine optimization builds on our custom web design and web development service and improves your website’s search performance. Our Pay-Per-Click (PPC) management services will ensure you get the most out of every dollar, your ads are shown in the most effective positions, and our review generation service will get you more 5-star reviews on the sites that matter most!"
+        paraOne="At Stellar Route, we understand that every business has unique needs, goals and target audience. That's why we offer a range of innovative solutions tailored to meet your specific requirements. Our team of experienced professionals work closely with you to develop customized strategies that will help you achieve your business objectives."
+        paraTwo="Whether you're looking to develop a mobile app, build a website, or launch a digital marketing campaign, we have the expertise and experience to deliver results that exceed your expectations. We pride ourselves on delivering high-quality, scalable and user-friendly solutions that are designed to drive growth and improve your bottom line. With Stellar Route by your side, you can be confident that you have a reliable partner who is committed to your success."
         />
         <TopServices />
-        <HomeSwiper />
 
         <Footer />
     </main>

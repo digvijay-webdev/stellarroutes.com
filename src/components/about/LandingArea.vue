@@ -6,7 +6,7 @@
                     INNOVATING FOR <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
                 </h1>
                 <p class="text-subtitle headingPara" data-aos="fade-up" data-aos-duration="1000">
-                    We are Kipperin Solutions, a tech company providing innovative software solutions. Our team develops user-friendly technology to help clients achieve their goals and stay ahead of the curve. We believe in the transformative power of technology and are committed to your success.
+                    We are Stellar Routes, a tech company providing innovative software solutions. Our team develops user-friendly technology to help clients achieve their goals and stay ahead of the curve. We believe in the transformative power of technology and are committed to your success.
                 </p>
             </div>
         </v-container>
@@ -28,23 +28,15 @@ export default {
                     text: 'PROGRESS'
                 },
                 {
-                    color: 'green',
-                    text: 'TRANSFORMATION'
-                },
-                {
                     color: 'blue',
                     text: 'IMPACT'
-                },
-                {
-                    color: 'orange',
-                    text: 'EMPOWERMENT'
-                },
+                }
             ]
         }
     },
     created() {
         setInterval(() => {
-            if (this.counter === 2) {
+            if (this.counter === 1) {
                 this.counter = 0;
             } else {
                 this.counter++;

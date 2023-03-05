@@ -6,8 +6,7 @@
                     APP DEVELOPMENT FOR <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
                 </h1>
                 <p class="text-subtitle headingPara" data-aos="fade-up" data-aos-duration="1000">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore architecto quae officiis distinctio cupiditate, aliquid necessitatibus temporibus laboriosam alias fugit voluptatibus minima obcaecati voluptatem quasi qui vero deserunt explicabo earum.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, ratione.
+                    We specialize in creating custom mobile applications for Android, iOS, and Windows platforms. Our team of experts works with you to develop an app that aligns with your business goals, engages your audience, and delivers a seamless user experience. Let's work together to bring your app ideas to life!
                 </p>
             </div>
         </v-container>
@@ -95,6 +94,12 @@ export default {
     }
     .headingPara {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .heading {
+        font-size: 44px;
     }
 }
 </style>

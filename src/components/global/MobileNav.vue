@@ -4,7 +4,7 @@
             <v-toolbar-title>
                 <h3>
                     <router-link class="logo" to="/">
-                        Kipperin
+                        Stellar Routes
                     </router-link>
                 </h3>
             </v-toolbar-title>
@@ -59,13 +59,13 @@
                                 </v-list-item-title>
                             </v-list-item>
                         </router-link>
-                        <router-link to="/data-analytics">
+                        <!-- <router-link to="/data-analytics">
                             <v-list-item>
                                 <v-list-item-title>
                                     Data Analytics
                                 </v-list-item-title>
                             </v-list-item>
-                        </router-link>
+                        </router-link> -->
                     </v-list-group>
 
                     <v-list-group :value="false">
@@ -109,7 +109,7 @@
                 <div class="pa-2">
                     <v-divider></v-divider>
                     <p class="text-caption pt-2">
-                        © 2023 Kipperin Limited. All Rights Reserved.
+                        © 2023 Stellar Routes. All Rights Reserved.
                     </p>
                 </div>
             </template>

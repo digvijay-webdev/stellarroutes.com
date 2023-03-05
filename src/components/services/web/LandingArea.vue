@@ -3,11 +3,10 @@
         <v-container class="container">
             <div class="wrapper">
                 <h1 class="heading" data-aos="fade-up" data-aos-duration="500">
-                    CUSTOM WEBSITE FOR <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
+                    TAILORED WEBSITE FOR <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
                 </h1>
                 <p class="text-subtitle headingPara" data-aos="fade-up" data-aos-duration="1000">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore architecto quae officiis distinctio cupiditate, aliquid necessitatibus temporibus laboriosam alias fugit voluptatibus minima obcaecati voluptatem quasi qui vero deserunt explicabo earum.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, ratione.
+                    Welcome to Stellar Routes' Website Development page! Our expert team offers tailored website development services to meet your business needs. We create visually stunning, user-friendly, and responsive websites that engage your audience and drive growth. Let's work together to bring your online presence to life, whether you need a simple informational website or a complex e-commerce platform.
                 </p>
             </div>
         </v-container>
@@ -33,10 +32,6 @@ export default {
                     text: 'YOUR BRAND'
                 },
                 {
-                    color: 'blue',
-                    text: 'YOUR FINANCE'
-                },
-                {
                     color: 'amber',
                     text: 'YOUR STARTUP'
                 },
@@ -45,7 +40,7 @@ export default {
     },
     created() {
         setInterval(() => {
-            if (this.counter === 3) {
+            if (this.counter === 2) {
                 this.counter = 0;
             } else {
                 this.counter++;

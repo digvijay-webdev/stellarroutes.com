@@ -5,10 +5,10 @@
                 <h1 class="heading" data-aos="fade-up" data-aos-duration="500">
                     LET'S TURN YOUR IDEAS TO <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
                 </h1>
-                <p class="text-subtitle headingPara" data-aos="fade-up" data-aos-duration="1000">
+                <!-- <p class="text-subtitle headingPara" data-aos="fade-up" data-aos-duration="1000">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore architecto quae officiis distinctio cupiditate, aliquid necessitatibus temporibus laboriosam alias fugit voluptatibus minima obcaecati voluptatem quasi qui vero deserunt explicabo earum.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, ratione.
-                </p>
+                </p> -->
             </div>
         </v-container>
     </div>

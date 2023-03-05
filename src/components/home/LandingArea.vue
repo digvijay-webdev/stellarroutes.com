@@ -3,11 +3,10 @@
         <v-container class="container">
             <div class="wrapper">
                 <h1 class="heading" data-aos="fade-up" data-aos-duration="500">
-                    CUSTOM WEB DESIGN FOR <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
+                    TAILORED SOFTWARE FOR <span :class="`${items[counter].color}--text`">{{ items[counter].text }}</span>
                 </h1>
                 <p class="text-subtitle headingPara" data-aos="fade-up" data-aos-duration="1000">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore architecto quae officiis distinctio cupiditate, aliquid necessitatibus temporibus laboriosam alias fugit voluptatibus minima obcaecati voluptatem quasi qui vero deserunt explicabo earum.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, ratione.
+                    Stellar Routes is a leading tech company specializing in creating customized websites, mobile apps, and cutting-edge technology solutions. Our team of experts works tirelessly to deliver exceptional products tailored to your unique needs, ensuring your success in the digital world.
                 </p>
             </div>
         </v-container>
@@ -34,7 +33,7 @@ export default {
                 },
                 {
                     color: 'blue',
-                    text: 'YOUR FINANCE'
+                    text: 'YOUR STARTUP'
                 },
             ]
         }
